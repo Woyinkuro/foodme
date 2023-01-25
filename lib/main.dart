@@ -10,7 +10,7 @@ import 'more_screens/congrats_screen.dart';
 import 'more_screens/push_notify_screen.dart';
 import 'more_screens/choose_screen.dart';
 import 'more_screens/login_screen.dart';
-
+import 'more_screens/forget_password_screen.dart';
 void main() {
   runApp(FoodMe());
 }
@@ -20,7 +20,7 @@ class FoodMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: LoginScreen.id,
+      initialRoute: ForgetPasswordScreen.id,
       routes: {
         SplashScreen.id: (context) => SplashScreen(),
         OnBoarding.id: (context) => OnBoarding(),
@@ -33,6 +33,7 @@ class FoodMe extends StatelessWidget {
         PushNotify.id: (context) => PushNotify(),
         ChooseScreen.id: (context) => ChooseScreen(),
         LoginScreen.id: (context) => LoginScreen(),
+        ForgetPasswordScreen.id: (context) => ForgetPasswordScreen(),
       },
     );
   }
