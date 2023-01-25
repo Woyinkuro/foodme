@@ -26,3 +26,10 @@ const kButtonTextStyle2 = TextStyle(
   fontWeight: FontWeight.w700,
   color: Color(0xFFF2F2F2),
 );
+
+const kForgotPassword = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.w600,
+  fontFamily: 'RedHatDisplay',
+  color: Color(0xFF9D9693),
+);
